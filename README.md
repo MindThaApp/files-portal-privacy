@@ -1,20 +1,20 @@
 # Files Portal privacy policy
 
-Last updated: 4 October 2026
+Last updated: 22 October 2026
 
-Files Portal is a file manager for Windows, made by MindtheApp. This page explains, in plain words, what the app does with your information. The short version: it does not collect any.
+Files Portal is a file manager for Windows, made by MindtheApp. This page explains, in plain words, what the app does with your information. The short version: it does not collect usage data, analytics or telemetry, has no accounts and no advertising. The only information that can leave your PC for us is a crash report (only with your consent) or a feedback message you choose to send.
 
-## What we collect
+## Crash reports
 
-Nothing. Files Portal has no accounts and no analytics. It does not send usage data, crash reports, file names, folder names or anything else about you or your computer to us or to anyone else. There are no advertising or tracking libraries inside the app.
+When Files Portal crashes, it can send us a crash report: the type of error and its message, the list of program functions that were running (the stack trace), the Files Portal version and edition, the Windows version and language, and basic device facts such as the processor type and the amount of memory. Before anything leaves your PC, file and folder paths are reduced to placeholders (for example `%USERPROFILE%\Documents\<file>.docx`), and your user name and your PC's name are removed. No files, screenshots or memory dumps are sent. Nothing is sent without your consent: by default, Files Portal asks after a crash, and the report stays on your PC until you choose Send. You can choose "Send automatically" or "Never send" at any time in Settings > General > Privacy > Crash reports; Never turns crash reporting off completely and deletes any report still waiting. If you press "Send report", the same kind of redacted information is sent together with the app's logs and settings, with all paths removed. Reports are processed for us by Sentry (Functional Software, Inc.) and stored in its EU data region (Germany). A random installation number groups reports from the same copy of the app; it cannot identify you. Reports are kept for the retention period of our Sentry plan and are then deleted automatically. Reports are not linked to your identity, are not used for advertising or tracking, and are not sold or shared with anyone else. To ask about or delete a report, contact us and quote the reference shown after sending.
+
+## Feedback
+
+"Send feedback" (Settings > About, the command palette or the app menu) sends the message you write, and nothing else, unless you tick more. You can add your e-mail address if you would like an answer, a screenshot of the Files Portal window you are using, and the same redacted diagnostics as "Send report"; each is off by default. File and folder paths and your user name are removed from the message before it is sent. A screenshot shows what is in the Files Portal window at that moment, which can include file and folder names, so only add one if you are happy to share what it shows. Your e-mail address is used only to reply to you. Feedback is something you send on purpose, so it works whatever you chose for crash reports, including Never. It is processed by Sentry (Functional Software, Inc.) in its EU data region. If you are offline, the message waits on your PC and is sent on a later start. Your e-mail address is only kept on your PC if you tick "Remember my e-mail". To ask about or delete a message, contact us and quote the reference shown after sending.
 
 ## What stays on your PC
 
-Files Portal keeps a few things on your own computer so it can work the way you expect:
-
-- Your settings and preferences, such as theme, layout and favourites.
-- Your tags and the list of recent places and files shown on the Home page.
-- Crash logs. If the app ever crashes, a small log is written to the app's own data folder on your PC to help you or a helper understand what happened. These logs are never sent anywhere. You can delete them at any time by deleting the app's data folder.
+Settings, layouts, tags, saved searches, history and caches are stored on your PC in `%APPDATA%\FilesPortal` and `%LOCALAPPDATA%\FilesPortal`. Passwords you save for network sites are kept in Windows Credential Manager. None of this is sent to us. Settings > Advanced > "Remove Files Portal data" deletes it.
 
 ## Your files
 
@@ -30,7 +30,11 @@ Files Portal does not sign in to any cloud service and does not use any cloud ac
 
 ## Children
 
-Files Portal does not collect personal information from anyone, including children.
+Files Portal is not aimed at children and does not knowingly collect personal information from them. The only personal information it can send is an e-mail address someone chooses to add to a feedback message.
+
+## Updates and connections you make
+
+The Microsoft Store version asks the Microsoft Store once a day whether an update is available; it never downloads or installs anything by itself. When you connect to a network share, an FTP or WebDAV site, a nearby device or a Git server, Files Portal talks only to the address you chose, and nothing from those connections is sent to us.
 
 ## Changes
 
@@ -38,4 +42,4 @@ If this policy ever changes, the new version will be published at this same addr
 
 ## Contact
 
-Questions about privacy? Contact MindtheApp at mindthaapp@gmail.com.
+Questions about privacy, or a request to delete a crash report or feedback message? Contact MindtheApp at mindthaapp@gmail.com, or use "Send feedback" in the app.
