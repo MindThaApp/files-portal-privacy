@@ -32,4 +32,4 @@ If this policy changes, the updated policy will be published at this address.
 
 ## Contact
 
-Questions, or requests about a crash report or feedback message: open an issue at [github.com/MindThaApp/files-portal-privacy/issues](https://github.com/MindThaApp/files-portal-privacy/issues). Please do not post personal information in a public issue; quote the reference shown after sending.
+Questions, or requests about a crash report or feedback message: email [mindthaapp@gmail.com](mailto:mindthaapp@gmail.com), or use **Send feedback** in Files Portal. Please quote the reference shown after sending.
