@@ -32,6 +32,7 @@ Pro features is a one-time purchase handled entirely by the Microsoft Store. The
 - A link inside a PDF is only opened after you confirm, in your default browser or mail app; that app then handles the request.
 - Read aloud uses the speech voices installed in Windows.
 - Text recognition (OCR) runs on your PC. Windows may download its own recognition files the first time it is used.
+- When the text editor cannot find a font on your PC, it offers "Get it from Google Fonts". Only if you click it, the app downloads that font from Google Fonts (fonts.googleapis.com) and its licence from Google's font repository on GitHub (raw.githubusercontent.com). The request contains the font's name and nothing from your document; like any web request, Google and GitHub receive your IP address. The font is saved in the app's data folder.
 - Dictation buttons start Voice Portal, a separate app, if you have it installed. They send nothing themselves.
 
 ## Children
