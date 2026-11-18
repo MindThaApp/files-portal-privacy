@@ -4,7 +4,7 @@ title: PDF Portal Editor Privacy Policy
 
 # PDF Portal Editor Privacy Policy
 
-Effective date: 2026-11-17
+Effective date: 2026-11-18
 
 This policy covers PDF Portal Editor, published by MindtheApp.
 
@@ -39,7 +39,7 @@ When you press Send in the feedback window, these go to our feedback service, Se
 
 No documents, file names, logs, settings, user name, PC name, installation ID or device details are sent. Nothing is sent unless you press Send.
 
-Like any internet connection, the feedback service sees your IP address while the message is delivered. We do not use it to identify or locate you.
+Like any internet connection, the feedback service sees your IP address while the message is delivered, but no IP address is stored with your message. We do not use it to identify or locate you.
 
 If a message cannot be sent (for example while you are offline), it is kept as plain text, with any picture you chose, in the Feedback folder in the app's data folder, and sent automatically the next time the app starts. To remove it, delete the files in that folder or uninstall the app.
 
