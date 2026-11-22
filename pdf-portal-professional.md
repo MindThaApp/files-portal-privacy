@@ -1,18 +1,18 @@
 ---
-title: PDF Portal Professional Privacy Policy
+title: Portal Plans Pro Privacy Policy
 ---
 
-# PDF Portal Professional Privacy Policy
+# Portal Plans Pro Privacy Policy
 
 Effective date: 2026-11-22
 
-This policy covers PDF Portal Professional, published by MindtheApp.
+This policy covers Portal Plans Pro, published by MindtheApp.
 
-PDF Portal Professional does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your drawings and documents are never sent to us. Two things can reach us: crash reports, which you can turn off at any time (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback" below).
+Portal Plans Pro does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your drawings and documents are never sent to us. Two things can reach us: crash reports, which you can turn off at any time (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback" below).
 
 ## Your documents stay on your PC
 
-PDF Portal Professional opens, reads, measures, marks up and saves your files on your own computer. It never uploads your documents, and we have no servers that receive them. The built-in PDF viewer can only load the app's own files. It is blocked from reaching any other web address.
+Portal Plans Pro opens, reads, measures, marks up and saves your files on your own computer. It never uploads your documents, and we have no servers that receive them. The built-in PDF viewer can only load the app's own files. It is blocked from reaching any other web address.
 
 ## Data that stays on your PC
 
@@ -65,7 +65,7 @@ If a message cannot be sent (for example while you are offline), it is kept on y
 
 ## Plus and Professional features, and the Microsoft Store
 
-PDF Portal Professional has free features and paid features (Plus and Professional). The app checks your licence through the Microsoft Store on Windows, and purchases are handled entirely by the Microsoft Store. We receive no licence, purchase or payment details, and no personal information from a purchase.
+Portal Plans Pro has free features and paid features (Plus and Professional). The app checks your licence through the Microsoft Store on Windows, and purchases are handled entirely by the Microsoft Store. We receive no licence, purchase or payment details, and no personal information from a purchase.
 
 ## Links, fonts and text recognition
 
