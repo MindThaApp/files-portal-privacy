@@ -4,42 +4,53 @@ title: PDF Portal Editor Privacy Policy
 
 # PDF Portal Editor Privacy Policy
 
-Effective date: 2026-11-19
+Effective date: 2026-11-22 (version 1.0.3)
 
 This policy covers PDF Portal Editor, published by MindtheApp.
 
-PDF Portal Editor does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your documents are never sent to us. Two things can reach us: crash reports, which help us fix problems and which you can turn off (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback and reviews" below).
+PDF Portal Editor does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your documents are never sent to us. Two things can reach us: crash reports, which are on by default and which you can turn off with one click (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback and reviews" below).
 
 ## Your documents stay on your PC
 
 PDF Portal Editor opens, reads, edits and saves your files on your own computer. It never uploads your documents, and we have no servers that receive them. Tools that produce a result save it as a file on your PC, by default under a new name so your original is kept.
 
+## Comments and markups carry only the name you type
+
+When you add a comment, a note, a highlight or another markup, the app can write an author name into the PDF, as PDF apps usually do. In PDF Portal Editor that name is only ever the one you type yourself in Settings > Privacy > "Author name for comments and markups". It is empty by default, and then no author name is written at all. The app never reads your Windows account name or your PC name for this. Anyone you share a marked-up PDF with can see the author name you typed, so leave it empty if you would rather not include one.
+
 ## Data that stays on your PC
 
-- Your settings and the list of recently opened PDFs (file names and the page you stopped at), so you can pick up where you left off.
+- Your settings (including the author name you typed, if any) and the list of recently opened PDFs (file names and the page you stopped at), so you can pick up where you left off.
 - Your saved signatures, stamps and other items you create in the app.
 - The start date of the Pro features trial, in a small file in the app's data folder.
 - If something goes wrong, a short error note in a log file in the app's data folder. The log file itself is never sent.
 - When you last saw the review card and your choices about it, in the app's settings file.
-- A feedback message that could not be sent yet (see below).
+- A feedback message or crash report that could not be sent yet (see below).
 
 This data is stored in the app's own data folder on your PC. None of it is sent to us, except a feedback message you chose to send and crash reports (see below), and uninstalling the app removes it.
 
 ## Crash reports
 
-When the app runs into an error or crashes, it sends a crash report so we can find and fix the problem. Crash reports are on by default. To turn them off, use "Send crash reports to help fix problems" in the File menu (it is also shown in a one-time notice when you first start the app or first start version 1.0.1). When they are off, nothing is sent and any reports still waiting to go are deleted.
+**On by default.** When the app runs into an error or crashes, it sends a crash report so we can find and fix the problem fast. Reports are sent automatically unless you turn them off.
 
-A crash report contains only:
+**How to turn them off.** Go to Settings > Privacy and switch off "Send crash reports" (Settings opens from the app menu or with Ctrl+,). The same choice is in the File menu. If you have never made a choice, the app also shows a one-time card with a ticked "Send crash reports" box and a "What's sent" link; untick it to turn reports off. Once you turn them off, the app never asks again, nothing more is sent, and any reports still waiting to go are deleted from your PC. If you turned crash reports off in an earlier version, they stay off.
+
+**What's sent.** A crash report contains only:
 
 - the type of error and where in the app's code it happened (the code's method and file names, with folder names removed);
 - how the error was caught and the error code;
 - which part of the app up to 10 earlier errors in the same session came from (the part's name only);
 - the names of the app's and Windows' code files needed to read the error, with folder names removed;
-- the app name, version and channel (Store or portable), a random ID for the report, the time, the Windows version, the .NET version, and basic hardware details (device type, processor type and number of processors, and amount of memory).
+- the app name, version and channel (Store or portable), a random ID for the report, the time, the Windows version, the .NET version, and basic hardware details (processor type and number of processors, and amount of memory).
 
-The text of the error message is removed before sending, because it can contain a file name. A crash report never contains your documents or anything from them (text, form values, comments, signatures, page images), file names, folder paths, document titles, your user name, PC name, an installation ID, logs, settings or screenshots.
+**What's never sent.** The text of every error message is removed before sending, because it can contain a file name. A crash report never contains your documents or anything from them (text, form values, comments, signatures, page images), what you type, file names, folder paths (paths include your Windows user name, so they are removed), document titles, your Windows account name, PC name, an installation ID, your IP address, logs, settings, attachments or screenshots.
 
-Crash reports go to the same service as feedback: Sentry (Functional Software, Inc., EU data region), in a project used only for PDF Portal. The service sees your IP address while a report is delivered, but no IP address is stored. A report that cannot be sent yet (for example while you are offline) waits in the CrashReports folder in the app's data folder and is sent the next time the app starts. Crash reports are kept for the period set by our service plan and then deleted automatically.
+**Where it goes.** Crash reports go to the same service as feedback: Sentry (Functional Software, Inc., EU data region), in a project used only for PDF Portal. Like any internet connection, the service sees your IP address while a report is delivered, but storing IP addresses is turned off for our whole account, so no IP address is kept with a report.
+
+**Waiting reports.** A report that cannot be sent yet (for example while you are offline) waits in the CrashReportQueue folder in the app's data folder and is sent the next time the app starts. Reports that an earlier version (1.0.1 or 1.0.2) left waiting in its CrashReports folder are not sent by version 1.0.3 unless you switch "Send crash reports" on yourself; turning crash reports off deletes them.
+
+**How long it is kept.** Crash reports are deleted automatically after 90 days. To have a report deleted sooner, email us (see Contact).
+
 ## Feedback and reviews
 
 Now and then the Store version of the app may show a small card asking for a Store review or for feedback. It never appears in the first 3 days, and not more often than every 4 days. "Not now", "Don't ask again" and the File menu setting "Ask me for a review now and then" stop it. A Store rating is handled by the Microsoft Store.
@@ -82,4 +93,4 @@ If this policy changes, the updated policy will be published at this address.
 
 ## Contact
 
-Questions: email [mindthaapp@gmail.com](mailto:mindthaapp@gmail.com).
+Questions, or a request to delete a crash report or feedback message: email [mindthaapp@gmail.com](mailto:mindthaapp@gmail.com).
