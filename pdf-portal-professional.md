@@ -35,7 +35,7 @@ Each markup can carry an author name. The author name is empty by default. If yo
 
 ## Crash reports
 
-Crash reports are on by default, to help us find and fix problems. The welcome screen shows this as a ticked option, with a "What's sent" link that lists what a report contains. To turn crash reports off, untick it on the welcome screen, or switch off the crash reports toggle in **Settings > Privacy** at any time. When it is off, nothing is sent and any reports still waiting to go are deleted.
+Crash reports are on by default, to help us find and fix problems. When you first start the app, it shows this as a ticked option, with a "What's sent" link that lists what a report contains. To turn crash reports off, untick it there, or switch off the crash reports toggle in **Settings > Privacy** at any time. When it is off, nothing is sent and any reports still waiting to go are deleted.
 
 When on, and the app runs into an error, it sends a report so we can find and fix the problem. A report contains only:
 
@@ -65,7 +65,7 @@ If a message cannot be sent (for example while you are offline), it is kept on y
 
 ## Plus and Professional features, and the Microsoft Store
 
-PDF Portal Professional has free features and paid features. TBD (the licence check is not built yet: the code has a to-do to read the Store licence and the trial, so it cannot yet be confirmed that the check goes through Windows and that no licence data leaves your PC except through the Microsoft Store. Update this once it exists). Purchases are handled by the Microsoft Store. We receive no payment details and no personal information from a purchase.
+PDF Portal Professional has free features and paid features. TBPDF Portal Professional checks your licence through the Microsoft Store on Windows. We receive no licence or purchase data; that stays with Microsoft. rchases are handled by the Microsoft Store. We receive no payment details and no personal information from a purchase.
 
 ## Links, fonts and text recognition
 
