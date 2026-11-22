@@ -8,7 +8,7 @@ Effective date: 2026-11-22
 
 This policy covers PDF Portal Professional, published by MindtheApp.
 
-PDF Portal Professional does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your drawings and documents are never sent to us. Two things can reach us: crash reports, which are off until you turn them on (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback" below).
+PDF Portal Professional does not collect usage data or analytics. It has no accounts, no advertising and no usage tracking. Your drawings and documents are never sent to us. Two things can reach us: crash reports, which you can turn off at any time (see "Crash reports" below), and a feedback message, only if you write one and press Send (see "Feedback" below).
 
 ## Your documents stay on your PC
 
@@ -31,11 +31,11 @@ None of this is sent to us. The Store version removes it when you uninstall the 
 
 When you measure, set a scale or add markups, the app saves them inside the PDF file you are working on, as standard PDF annotations. It also adds its own data entries to the file, named `PPLN_Data`, `PPLN_Doc`, `PPLN_Scale` and `PPLN_ScaleId`, so it can read your measurements and scales back later. These stay in the file. If you share the PDF, the other person can see them. The app does not send them anywhere.
 
-Each markup carries an author name. The app uses the name of the Windows account you are signed in with. TBD (is there a setting to type a different author name, and should it be empty by default? The current code has no such setting.) The author name is stored in the PDF only, and shown in the app's markup list.
+Each markup can carry an author name. The author name is empty by default. If you want one, you type it yourself in **Settings**. The app never reads the name of your Windows account. The author name is stored in the PDF only, and shown in the app's markup list.
 
 ## Crash reports
 
-Crash reports are off by default. Nothing is started, saved or sent until you switch on "Send crash reports" in the app menu. You can switch it off again at any time. When it is off, nothing is sent and any reports still waiting to go are deleted.
+Crash reports are on by default, to help us find and fix problems. The welcome screen shows this as a ticked option, with a "What's sent" link that lists what a report contains. To turn crash reports off, untick it on the welcome screen, or switch off the crash reports toggle in **Settings > Privacy** at any time. When it is off, nothing is sent and any reports still waiting to go are deleted.
 
 When on, and the app runs into an error, it sends a report so we can find and fix the problem. A report contains only:
 
@@ -46,7 +46,7 @@ When on, and the app runs into an error, it sends a report so we can find and fi
 
 The text of the error message is removed before sending, because it can contain text from a drawing. A report never contains your documents or anything from them, file names, folder paths, your user name, your PC name, logs, settings or screenshots. No usage sessions, performance data or user details are sent.
 
-Reports go to Sentry (Functional Software, Inc.), in its EU data region, in a project used for PDF Portal. Like any internet connection, the service sees your IP address while a report is delivered. TBD (confirm in the Sentry project settings that "store IP address" is off). Reports are kept for the period set by our service plan and then deleted automatically.
+Reports go to Sentry (Functional Software, Inc.), in its EU data region, in a project used for PDF Portal. Like any internet connection, the service sees your IP address while a report is delivered, but IP addresses are not stored. Reports are kept for 90 days and then deleted automatically.
 
 ## Feedback
 
