@@ -4,7 +4,7 @@ title: Files Portal Privacy Policy
 
 # Files Portal Privacy Policy
 
-Effective date: 2026-11-18
+Effective date: 2026-11-22
 
 
 This policy covers Files Portal, published by MindtheApp.
@@ -13,7 +13,7 @@ Files Portal does not collect usage data, analytics or telemetry. It has no acco
 
 ## Crash reports
 
-When Files Portal crashes, it can send us a crash report: the type of error and its message, the list of program functions that were running (the stack trace), the Files Portal version and edition, the Windows and .NET versions and the language, the amount of memory, and the names and versions of the program components that were loaded. Before anything leaves your PC, file and folder paths are reduced to placeholders (for example `%USERPROFILE%\Documents\<file>.docx`), and your user name and your PC's name are removed. No files, screenshots or memory dumps are sent. Crash reports are on by default. The first-run welcome, and a one-time page after an update, show a "Send crash reports to help fix problems" checkbox that you can untick; you can also untick it at any time in Settings > General > Privacy > Crash reports. Unticking turns crash reporting off completely and deletes any report still waiting. If you press "Send report", the same kind of redacted information is sent together with the app's logs and settings, with all paths removed. Reports are processed for us by Sentry (Functional Software, Inc.) and stored in its EU data region (Germany). No IP address is stored with a report. A random installation number groups reports from the same copy of the app; it cannot identify you. Reports are kept for the retention period of our Sentry plan and are then deleted automatically. Reports are not linked to your identity, are not used for advertising or tracking, and are not sold or shared with anyone else. To ask about or delete a report, contact us and quote the reference shown after sending.
+Files Portal sends a crash report automatically when the app crashes, unless you turn it off. A report contains what went wrong (the error and where in the program it happened), the app and Windows version, and basic facts about your PC such as the processor and memory. Before a report leaves your PC, Files Portal removes file names, folder paths, your Windows user name, the PC name, e-mail addresses and IP addresses from it. Your files are never attached, Files Portal does not record what you type, and it sends no usage data or session pings. IP addresses are not stored. Reports go to our crash-report service, Sentry (Functional Software, Inc.), in its EU data region, and are kept for 90 days. You choose at first start, and you can change it at any time in Settings, Privacy, Send crash reports. Once you turn it off, Files Portal never asks again and sends nothing. Sending feedback or a diagnostics report yourself is separate and only happens when you press Send. Reports are not linked to your identity, are not used for advertising or tracking, and are not sold or shared with anyone else. To ask about or delete a report, contact us.
 
 ## Feedback
 
