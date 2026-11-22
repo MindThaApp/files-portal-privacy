@@ -50,28 +50,28 @@ Reports go to Sentry (Functional Software, Inc.), in its EU data region, in a pr
 
 ## Feedback
 
-Now and then the app may ask for a Store review or for feedback. TBD (the app has no Store product ID yet, so the review card is off; confirm before release whether it will be on).
+Once the app is in the Microsoft Store, it may now and then show a small card asking for a Store review or for feedback. It never appears in the first 3 days, and not more often than every 4 days. The card sends nothing to us. A Store rating opens Windows' own rating dialog, or the app's Store page, and is handled by the Microsoft Store. Only the dates and your choices about the card are kept on your PC, in the settings file. "Not now" and "Don't ask again" stop it.
 
 "Send feedback" is in **About**. When you press Send, this goes to our feedback service, Sentry (Functional Software, Inc., EU data region):
 
 - the message you wrote, with file and folder paths and your Windows user name removed first;
 - your e-mail address, only if you typed one, used only to reply to you;
 - a picture, only if you chose one;
-- the app name, version and channel, and the Windows and .NET versions.
+- the kind of message you chose, a random ID for the message, the app name, version and channel (Store or portable), and the Windows and .NET versions.
 
-TBD (list the exact tags the Plans feedback sends; the code is shared with PDF Portal Editor, and Plans-specific tags were not checked). Nothing is sent unless you press Send. No documents, logs, settings, user name or PC name are sent.
+Nothing is sent unless you press Send. No documents, logs, settings, user name or PC name are sent.
 
 If a message cannot be sent (for example while you are offline), it is kept on your PC in the Feedback folder in the app's data folder and sent the next time the app starts. To remove it, delete the files in that folder or uninstall the app. Feedback is kept for the period set by our feedback service plan. To have a message deleted sooner, email us (see Contact).
 
 ## Plus and Professional features, and the Microsoft Store
 
-PDF Portal Professional has free features and paid features. TBD (the licence check is not built yet: PlansFeatureGate has a to-do to read the Store licence and the trial. Describe it, and what is sent to the Microsoft Store, once it exists). Purchases are handled by the Microsoft Store. We receive no payment details and no personal information from a purchase.
+PDF Portal Professional has free features and paid features. TBD (the licence check is not built yet: the code has a to-do to read the Store licence and the trial, so it cannot yet be confirmed that the check goes through Windows and that no licence data leaves your PC except through the Microsoft Store. Update this once it exists). Purchases are handled by the Microsoft Store. We receive no payment details and no personal information from a purchase.
 
 ## Links, fonts and text recognition
 
 - A link inside a PDF is only opened after you confirm, in your default browser or mail app; that app then handles the request.
-- Text recognition (OCR) runs on your PC. TBD (confirm whether Plans includes OCR, and whether any recognition models are downloaded at run time).
-- When the text editor cannot find a font on your PC, it offers "Get it from Google Fonts". Only if you click it, the app downloads that font from Google Fonts (fonts.googleapis.com) and its licence from Google's font repository on GitHub (raw.githubusercontent.com). The request contains the font's name and nothing from your document. Like any web request, Google and GitHub receive your IP address. TBD (confirm the text editor is available in Plans).
+- Text recognition (OCR) runs on your PC. The recognition models come with the app. Windows may download its own recognition files the first time its OCR is used.
+- When the text editor cannot find a font on your PC, it offers "Get it from Google Fonts". Only if you click it, the app downloads that font from Google Fonts (fonts.googleapis.com) and its licence from Google's font repository on GitHub (raw.githubusercontent.com). The request contains the font's name and nothing from your document. Like any web request, Google and GitHub receive your IP address.
 
 ## Children
 
