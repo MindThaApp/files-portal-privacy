@@ -65,7 +65,7 @@ If a message cannot be sent (for example while you are offline), it is kept on y
 
 ## Plus and Professional features, and the Microsoft Store
 
-PDF Portal Professional has free features and paid features. TBPDF Portal Professional checks your licence through the Microsoft Store on Windows. We receive no licence or purchase data; that stays with Microsoft. rchases are handled by the Microsoft Store. We receive no payment details and no personal information from a purchase.
+PDF Portal Professional has free features and paid features (Plus and Professional). The app checks your licence through the Microsoft Store on Windows, and purchases are handled entirely by the Microsoft Store. We receive no licence, purchase or payment details, and no personal information from a purchase.
 
 ## Links, fonts and text recognition
 
